@@ -325,3 +325,66 @@ body{
         opacity: 1;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    /* Adjust header styles for smaller screens */
+    .header {
+        padding: 10px;
+    }
+
+    /* Adjust home section styles for smaller screens */
+    .home {
+        padding: 30px 0;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content pre {
+        font-size: 14px;
+    }
+
+    /* Adjust about section styles for smaller screens */
+    .about {
+        padding: 30px 0;
+    }
+
+    .about-img img {
+        max-width: 200px;
+    }
+
+    .about-text h2 {
+        font-size: 28px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    /* Adjust services section styles for smaller screens */
+    .services {
+        padding: 30px 0;
+    }
+
+    .services h1 {
+        font-size: 28px;
+    }
+
+    .services-list i {
+        font-size: 36px;
+    }
+
+    .services-list h2 {
+        font-size: 20px;
+    }
+
+    .services-list p {
+        font-size: 14px;
+    }
+}
