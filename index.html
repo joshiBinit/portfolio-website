@@ -1,172 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width-device-width, initial-scale-1.0">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-
-    </head>
-    <body>
-        <header class="header">
-            <a href="#" class="logo">Portfolio</a>
-
-            <nav class="navbar">
-                <a href="#" style="--i:1" class="active">Home</a>
-                <a href="#about" style="--i:2">About</a>
-                <a href="#services" style="--i:3">Skill</a>
-                <a href="#portfolio" style="--i:4">Projects</a>
-                <a href="#contact" style="--i:5">Contact</a>
-            </nav>
-        </header>
-        <section class="home">
-            <div class="home-content">
-                <h3>Hello,It's me</h3>
-                <h1>Binit Joshi</h1>
-                <h3>And I'm a <span class="text"></span></h3>
-                <pre>I'm a Computer Engineering student with a passion for front-end 
-and web development. As a fresher in the field, I am eager to 
-learn and apply my skills in creating visually appealing and 
-user-friendly websites. My journey in web development is fueled 
-by curiosity and a desire to turn creative ideas into functional 
-digital experiences. I am proficient in HTML, CSS, and JavaScript, 
-and I am constantly expanding my knowledge in modern 
-frameworks and libraries.Explore my portfolio to see my projects 
-and learn more about my work.</pre>
-            <div class="home-sci">
-                <a href="https://www.facebook.com/profile.php?id=100091817206629" style="--i:7" target="_blank"><i class='bx bxl-facebook-square'></i></a>
-                <a href="https://www.instagram.com/joshi_binit/" style="--i:8" target="_blank"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://wa.me/9818168488" style="--i:9" target="_blank"><i class='bx bxl-whatsapp' ></i></i></a>
-                <a href="https://www.linkedin.com/in/binit-joshi-2b9773242/" style="--i:10" target="_blank"><i class='bx bxl-linkedin' ></i></i></a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="color1.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>A</span>tlas</a>
             </div>
-            <a href="#" class="btn-box">More About Me</a>
-            </div>
-            <span class="home-imgHover"></span>
-        </section>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
 
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="images/cc.png" id="pp">
-            </div>
-            <div class="about-text">
-                <h2>About<span>Me</span></h2>
-                <h4>Front End Developer!</h4>
-                <p>Hello! I am a budding Front-End Developer with a keen interest in creating visually appealing and user-friendly web interfaces. Although I am a fresher in this field, I have passionately dedicated myself to learning essential front-end technologies and have completed several projects that showcase my growing skills in HTML, CSS, and JavaScript. I am excited about the opportunity to apply my knowledge, continue learning, and contribute to innovative web development projects. Explore my portfolio to see my work and the projects I've created so far.</p>
-            
-                <a href="#" class="btn-box">More About Me</a>
-            </div>
-        </section>
+        <div class="main-content">
+           <section class="home section">
+                Home
+           </section> 
+        </div>
+    </div>
 
-        <section>
-            <div class="services" id="services">
-                <div class="container">
-                    <h1 class="sub-title">My<span>Skills</span></h1>
-                    <div class="services-list">
-                        <div>
-                            <i class='bx bxl-html5' style="color: #c95d2e"></i>
-                            <h2>HTML</h2>
-                            <p>Proficient in using HTML to create structured and semantic web pages.</p>
-                            
-                        </div>
-                    </div>
-                    <div class="services-list">
-                        <div>
-                            <i class='bx bxl-css3' style="color: #147bbc"></i>
-                            <h2>CSS</h2>
-                            <p>Skilled in styling web pages with CSS, including layouts, colors, and responsive design.</p>
-                           
-                        </div>
-                    </div>
-                    <div class="services-list">
-                        <div>
-                            <i class='bx bxl-javascript' style="color: #b0bc1e"></i>
-                            <h2>JS</h2>
-                            <p>Experienced in using JavaScript to add interactivity and dynamic content to websites.</p>
-                           
-                        </div>
-                    </div>
-                    <div class="services-list">
-                        <div>
-                            <i class='bx bxl-react' style="color: #147bbc"></i>
-                            <h2>React</h2>
-                            <p>As a beginner React developer, I have foundational skills in building dynamic and interactive web applications using React</p>
-                           
-                        </div>
-                    </div>
-                    <div class="services-list">
-                        <div>
-                            <i class='bx bxl-github' style="color: white"></i>
-                            <h2>GitHub</h2>
-                            <p>Competent in version control with GitHub, managing repositories, and collaborating on projects.</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div id="portfolio" id="project">
-                <div class="main-text" id="project">
-                    <h2>Latest<span>Project</span></h2>
-
-                    <div class="portfolio-content">
-                        <div class="row">
-                            <img src="images/iphone.png" >
-                            <div class="layer">
-                                <h5>iPhone website clone</h5>
-                                <p>A lifelike, dynamic website that is an iPhone clone, with smooth GSap animations and detailed 3D models created using Three.js.</p>
-                                <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <img src="images/Screenshot 2024-06-08 163151.png" >
-                            <div class="layer">
-                                <h5>Movie Site-Frontend</h5>
-                                <p>Created a responsive movie search site using HTML, CSS, and JavaScript, providing instant movie suggestions based on user queries.</p>
-                                <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <img src="images/Screenshot 2024-06-08 163315.png" >
-                            <div class="layer">
-                                <h5>Signup form</h5>
-                                <p>I crafted a sleek and responsive signup form interface, prioritizing user experience and seamless usability across devices, using HTML, CSS, and JavaScript.</p>
-                                <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-        <section class="contact" id="contact">
-            <div class="contact-text">
-                <h2>Contact<span>Me</span></h2>
-                <h4>Let's work together</h4>
-                <p>I'm an enthusiastic front-end developer committed to making web apps that are both aesthetically pleasing and easy to use. I can help you realize your vision, whether you're wanting to improve an existing project or start from begin with a new one. Together, let's build dynamic, responsive websites that offer great user experiences. Get in touch with me right now, and let's get to work creating something incredible!</p>
-                <br>
-                    <div class="contact-list">
-                        <li><i class="bx bxs-send"></i>binitjoshi4554@gmail.com</li>
-                        <li><i class="bx bxs-phone"></i>977-9818168488</li>
-                    </div>
-                    <div class="contact-icons">
-                        <a href="https://www.facebook.com/profile.php?id=100091817206629" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
-                        <a href="https://www.instagram.com/joshi_binit/"><i class="bx bxl-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/binit-joshi-2b9773242/"><i class="bx bxl-linkedin"></i></a>
-                        <a href="https://github.com/joshiBinit"><i class='bx bxl-github'></i></a>
-                    </div>
-            </div>
-
-            
-
-        </section>
-
-        <script src="main.js"></script>
-    
-
-    </body>
+   <script src="main.js"></script> 
+</body>
 </html>
